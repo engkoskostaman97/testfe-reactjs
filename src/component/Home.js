@@ -24,7 +24,7 @@ function Home() {
   return (
     <>
         {data.map((item, i) => (
-          <div className="container mt-4 border border-dark">
+          <div className="container mt-4 mx-auto border border-dark" style={{width: "90%"}}>
           <Link
             to={`/detail/${item.id}`}
             className="text-decoration-none"
@@ -42,7 +42,7 @@ function Home() {
                   />
                 </Card>
               </div>
-              <div className="col-6 mt-5" style={{ backgrounColor: "black" }}>
+              <div className="col-6 mt-5" >
                 <div className="text-black">
                   <h2>{item?.title}</h2>
                   <br></br>

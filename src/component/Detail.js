@@ -20,10 +20,10 @@ function Detail() {
     
   return (
     
-    <div className="container mt-4 mb-5 border border-dark" >
+    <div className="container mt-4 mx-auto mb-3 border border-dark" style={{width: "90%"}}>
       <div className="row bg-faded">
         <div class="col-4 mt-5 mb-5" >
-            <Card   className="card-img-top img-fluid">
+            <Card  className="card-img-top img-fluid">
                 <Card.Img src={products.thumbnail} />
             </Card>
         </div>
