@@ -24,7 +24,7 @@ function Home() {
   return (
     <>
         {data.map((item, i) => (
-          <div className="container mt-4 mx-auto border border-dark" style={{width: "90%"}}>
+          <div className="container mt-4 mb-3 mx-auto border border-dark" style={{width: "90%"}}>
           <Link
             to={`/detail/${item.id}`}
             className="text-decoration-none"
