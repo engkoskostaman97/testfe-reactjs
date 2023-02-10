@@ -20,14 +20,14 @@ function Detail() {
     
   return (
     
-    <div className="container mt-4 border border-dark">
+    <div className="container mt-4 mb-5 border border-dark" >
       <div className="row bg-faded">
         <div class="col-4 mt-5 mb-5" >
-            <Card style={{  width: '25rem', height: "25rem"  }} className="text-danger">
+            <Card   className="card-img-top img-fluid">
                 <Card.Img src={products.thumbnail} />
             </Card>
         </div>
-        <div className="col-6 mt-5" style={{ backgrounColor: "black" }}>
+        <div className="col-6 mt-5 mx-5" style={{ backgrounColor: "black" }}>
             <div className="text-black">
                 <h2>{products.title}</h2>
                 <br></br>

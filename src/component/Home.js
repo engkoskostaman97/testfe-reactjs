@@ -33,8 +33,7 @@ function Home() {
             <div className="row bg-faded">
               <div className="col-4 mt-5 mb-5">
                 <Card
-                  style={{ width: "18rem", height: "25rem" }}
-                  className="text-danger"
+                  className="card-img-top img-fluid"
                 >
                   <Card.Img
                     src={
